@@ -11,26 +11,47 @@ Vaishnavi Baiken - 801316841
 
 
 ### Project Scope
+The machine learning component in this project aims to address a few specific challenges and opportunities within the domain of pre and post-purchase product questions in the e-commerce space. The focus will be on leveraging the dataset from Amazon to gain insights and develop models for the following tasks.
 
-### Domain
-Pre- and post-purchase product questions (E-commerce) 
-
-The dataset appears to be designed to explore and analyze the relationship between customer and the businesses. The dataset gives us a scope to study the following-
+#### Objectives
+The dataset appears to be designed to explore and analyze the relationship between customers and businesses. The dataset gives us a scope to study the following-
 * Customer Behavior Analysis: Understanding how long it takes for customers to have inquiries after making a purchase and identifying patterns or trends in this behavior.
 * Customer Satisfaction: Investigating if there's a correlation between the time gap and the nature of the questions, potentially indicating customer satisfaction or dissatisfaction.
 * Product Performance: Analyzing the types of questions for specific products to gain insights into product performance and identify areas for improvement.
 * Predictive Modeling: Building models to predict the likelihood of customers asking questions based on the time elapsed since the purchase.
 
-To conclude, the dataset provides valuable information for businesses to understand customer interactions, improve customer support, and gain insights into product-related inquiries over time.
+### Domain
+Pre- and post-purchase product questions (E-commerce) 
+#### Characteristics:
+
+Active customer interaction through pre- and post-purchase questions.
+Dynamic product catalog with frequent changes.
+Varied product-related inquiries.
+
+#### Opportunities:
+Insights into customer preferences and satisfaction.
+Proactive customer support.
+#### Specific Task:
+
+Analyzing temporal patterns in customer inquiries.
+Investigating correlations between question types and post-purchase time.
+#### Stakeholders:
+The major stakeholders for this project would be 
+E-commerce platforms
+Businesses and sellers
+Customers
 
 ### Literature Review
 
 ### Data Source(s)
+
+Dataset Link: https://registry.opendata.aws/pre-post-purchase-questions/
+
 Amazon S3 bucket ARN: arn:aws:s3:::pre-post-purchase-questions
 
 Text document: https://pre-post-purchase-questions.s3.amazonaws.com/README.txt
 
-Description: This dataset provides product related questions, including their textual content and gap, in hours, between purchase and posting time. Each question is also associated with related product details, including its id and title.
+Description: This dataset provides product-related questions, including their textual content and gap, in hours, between purchase and posting time. Each question is also associated with related product details, including its id and title.
 
 The specifics described in this dataset involves product-related questions, with each entry providing the following information
 * Question: This is the actual content of the question that customers have asked related to a particular product.
