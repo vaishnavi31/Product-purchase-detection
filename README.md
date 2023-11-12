@@ -3,7 +3,9 @@ This project aims to perform product analysis and detect users' purchase state f
 ### TEAM MEMBERS
 
 Vishal Bondili - 801307348
+
 Sree Harsha Nimmagadda - 801308050
+
 Vaishnavi Baiken - 801316841
 
 
