@@ -71,7 +71,29 @@ Challenge: Products on Amazon change a lot. Adapting our system to always unders
 
 ### KPI’s
 
+Time-to-Question Analysis Accuracy: Measures the precision of the model in determining the time gap between purchase and question posting. This is crucial for understanding customer behavior post-purchase.
 
+Customer Behavior Pattern Recognition: Evaluates the model's ability to identify and categorize patterns or trends in customer behavior based on the timing and nature of their questions.
+
+Correlation Identification Accuracy: Assesses the model's effectiveness in identifying correlations between the time gap after purchase and the nature of questions, which may indicate customer satisfaction or dissatisfaction levels.
+
+Product Inquiry Categorization Accuracy: Measures how accurately the model categorizes the types of product-related inquiries, providing insights into product performance and customer concerns.
+
+Predictive Model Accuracy: Evaluates the precision and reliability of predictive models in forecasting the likelihood of customers asking questions based on the elapsed time since purchase.
+
+Dynamic Catalog Adaptability: Assesses how effectively the model adapts to the constantly changing product catalog on Amazon, maintaining high accuracy in understanding and categorizing new products and features.
+
+Ambiguity Resolution Efficiency: Measures the model's capability to decipher and correctly interpret ambiguous product descriptions in customer questions.
+
+Customer Satisfaction Index (CSI): Based on the analysis of question types and timings, derive a CSI to gauge overall customer satisfaction with the product.
+
+Product Improvement Insights: Track how effectively the analysis leads to actionable insights for product improvement.
+
+Customer Engagement Rate: Monitor the rate and depth of customer engagement as indicated by the frequency and nature of questions.
+
+Model Responsiveness: Measure the time taken by the model to adapt to new data or changes in product catalogs.
+
+Feedback Loop Effectiveness: The model's ability to learn from new data and improve over time in terms of accuracy and adaptability.
 
 
 
