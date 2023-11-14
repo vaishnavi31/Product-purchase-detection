@@ -46,30 +46,29 @@ Customers
 
 **Literature Review**
 Efficient product categorization is essential to e-commerce success, impacting user experience and purchase decisions.
-**1. Need and importance of Product Categorization**
+*1. Need and importance of Product Categorization*
 
    1.1 Enhances User Experience: Well-structured categorization boosts user satisfaction and conversion rates (Alam et al., 2018).
 
    1.2 Influences Purchase Decision: Categorization affects consumer decision-making, guiding users towards specific products (Rigas et al., 2017).
 
-**2. Challenges in Product Categorization**
+*2. Challenges in Product Categorization*
 
    2.1 Ambiguity and Subjectivity: Ambiguous product attributes and subjective user interpretations pose challenges (Liu et al., 2019).
 
    2.2 Scalability: Scaling categorization systems for dynamic inventories is a challenge addressed through machine learning (Srivastava et al., 2020).
 
-**3. Emerging Trends**
+*3. Emerging Trends*
 
    3.1 Personalization: AI-driven personalized categorization based on user behavior enhances engagement (Biswas et al., 2019).
 
    3.2 Cross-Channel Consistency: Maintaining consistent categorization across platforms is crucial for brand image (Lalmas et al., 2017).
 
-**4. Role of Product-Purchase Platforms**
+*4. Role of Product-Purchase Platforms*
 
    4.1 Social Commerce Integration: User-generated content and social interactions inform categorization, enhancing the shopping experience (Hajli, 2014).
 
    4.2 UI Design: Intuitive and visually appealing UIs improve user navigation and comprehension of categorization structures (Yoo et al., 2015).
-
 
 
 **Data Source(s)**
