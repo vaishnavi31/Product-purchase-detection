@@ -125,5 +125,32 @@ Model Responsiveness: Measure the time taken by the model to adapt to new data o
 
 Feedback Loop Effectiveness: The model's ability to learn from new data and improve over time in terms of accuracy and adaptability.
 
+## Phase2 Deliverable
+
+**S3 Data Storage:**
+
+**Data Exploration for Insight and Pre-processing:**
+
+We make use of AWS Glue for ETL Transformations
+**Pre-processing** 
+1. Stop words removal
+2. convert text to lowercase
+3. Tokenization - textbreakdown
+4. Extract single item_name clearly
+
+Transformations
+1. Number of questions for each product
+2. Calculate average gap in hours for different product categories or titles.
+3. Compute descriptive statistics for the gap in hours, such as mean, median, and standard deviation, to understand the central tendency and variability.
+   
+
+Visualizations
+1. Number of questions vs asin
+2. avg hours diff vs product_asin
+3. label distribution vs asin
+
+**AWS Glue ETL Job:**
+
+**AWS Pipeline:**
 
 
