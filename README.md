@@ -139,8 +139,28 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 
 **Data Exploration:**
 
-Athena - we explored the dataset indepth using SQL queries.
+To draw meaningful insights from the dataset for data exploration we have used Athena for querying the data.
 
+*Count Total Records:  *
+SELECT COUNT(*) FROM prepostquestionsdb.PrePostQuestions;
+
+*Count Questions Per Product:  *
+SELECT asin, COUNT(question) AS total_questions FROM prepostquestionsdb.PrePostQuestions GROUP BY asin;
+
+*To find most common questions:  *
+SELECT question, COUNT(*) AS frequency FROM prepostquestionsdb.PrePostQuestions GROUP BY question ORDER BY frequency DESC LIMIT 10;
+
+*Questions Over Time:  *
+SELECT hours_diff, COUNT(*) AS question_count FROM prepostquestionsdb.PrePostQuestions GROUP BY hours_diff ORDER BY hours_diff;
+
+*Distribution of Labels:  *
+SELECT label, COUNT(*) AS count FROM prepostquestionsdb.PrePostQuestions GROUP BY label;
+
+*Questions Per Product with Label Distribution:  *
+SELECT asin, label, COUNT(*) AS count FROM prepostquestionsdb.PrePostQuestions GROUP BY asin, label;
+
+*Average Time Before Question Asked Per Label:  *
+SELECT label, AVG(hours_diff) AS average_hours FROM prepostquestionsdb.PrePostQuestions GROUP BY label;
 
 We make use of AWS Glue for ETL Transformations
 
