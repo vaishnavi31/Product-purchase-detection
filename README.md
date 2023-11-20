@@ -137,8 +137,6 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 7. Versioning and logging are two capabilities that S3 offers that help you keep track of changes and keep an eye on who has access to your dataset over time.
 8. S3 objects may be retrieved using a distinct URL, which makes it easier to integrate them with analytic software and machine learning techniques.
 
-
-
 **Data Exploration:**
 
 Athena - 
