@@ -128,6 +128,16 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 ## Phase2 Deliverable
 
 **S3 Data Storage:**
+1. Amazon Web Services (AWS) offers a highly scalable and secure object storage solution which is Amazon S3 (Simple Storage solution). We make use of this service to store our dataset before preprocessing it and applying transformations on the same.
+2. S3 is advantageous as it lets you store and access any volume of data at any time, it's the perfect option for hosting big datasets, including data about products.
+3. S3 is used  to group data into buckets, which are named within the S3 namespace and are globally unique, the link that stores our dataset is s3://pre-post-purchase-questions/.
+4.This is the link we use as input to perform the next steps as documented below.
+5.S3 is flexible for a product study project since it can store a variety of data kinds, including text files, photos, and metadata.
+6. It allows you to regulate who can access your information with fine-grained access controls.
+7. Versioning and logging are two capabilities that S3 offers that help you keep track of changes and keep an eye on who has access to your dataset over time.
+8. S3 objects may be retrieved using a distinct URL, which makes it easier to integrate them with analytic software and machine learning techniques.
+
+
 
 **Data Exploration:**
 
