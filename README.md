@@ -140,9 +140,10 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 **Data Exploration:**
 
 Athena - 
+
+
+
 We make use of AWS Glue for ETL Transformations
-
-
 **Pre-processing** 
 
 1. Stop words removal
@@ -152,14 +153,15 @@ We make use of AWS Glue for ETL Transformations
 
 **Data Transformations - AWS Glue**
 
-1. Number of questions for each product
-2. Calculate average gap in hours for different product categories or titles.
-3. Compute descriptive statistics for the gap in hours, such as mean, median, and standard deviation, to understand the central tendency and variability.
+1. Number of questions for each product: Understanding the distribution of questions for each product is crucial for assessing user engagement and product popularity. By analyzing the dataset, we can determine the number of questions associated with each unique product, identified by its ASIN (Amazon Standard Identification Number). This information provides valuable insights into user interest and interaction levels for individual products. Products with a higher number of questions may indicate greater user engagement, potential issues, or areas that require additional support or attention. This analysis aids product managers and customer support teams in tailoring their strategies to address specific product-related concerns effectively.
+
+2. General processing time for the entire system: Assessing the general processing time for the entire system is essential for evaluating the efficiency of the dataset processing pipeline or system. This metric represents the time taken to perform data processing tasks, including data loading, cleaning, transformation, and any other relevant operations. Monitoring and optimizing the general processing time contribute to overall system performance. A shorter processing time enhances the responsiveness of the system, ensuring timely analysis and insights. System administrators and developers can use this information to identify bottlenecks, streamline processes, and improve the overall efficiency of the data processing system.
+
+3. Processing time for each item: Analyzing the processing time for each item provides a granular view of the system's performance, offering insights into the efficiency of operations specific to individual products. By measuring the time it takes to process questions related to each item, system administrators can identify potential outliers, bottlenecks, or areas of improvement. Variations in processing time among different items may highlight specific challenges or opportunities for optimization. This information is instrumental in fine-tuning the system's capabilities, ensuring that it can handle varying workloads and maintain consistent performance across different products. Additionally, it aids in resource allocation and optimization efforts to enhance the overall processing efficiency for each item in the dataset.
 
 **AWS Glue ETL Pipeline:**
 
-![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/AWS%20pipeline1.png)
-
+![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/aws_pipeline.jpeg)
 
 
 **Visualizations**
@@ -169,4 +171,4 @@ We make use of AWS Glue for ETL Transformations
 
 **AWS Pipeline:**
 
-![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/aws_pipeline.jpeg)
+![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/AWS%20pipeline1.png)
