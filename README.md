@@ -148,7 +148,7 @@ We make use of AWS Glue for ETL Transformations
 2. Calculate average gap in hours for different product categories or titles.
 3. Compute descriptive statistics for the gap in hours, such as mean, median, and standard deviation, to understand the central tendency and variability.
 **AWS Glue ETL Pipeline:**
-<Image>
+![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/AWS%20pipeline1.png)
 
 
 
