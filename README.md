@@ -169,4 +169,4 @@ We make use of AWS Glue for ETL Transformations
 
 **AWS Pipeline:**
 
-
+![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/aws_pipeline.jpeg)
