@@ -129,27 +129,33 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 
 **S3 Data Storage:**
 
-**Data Exploration for Insight and Pre-processing:**
+**Data Exploration:**
 
+Athena - 
 We make use of AWS Glue for ETL Transformations
+
+
 **Pre-processing** 
+
 1. Stop words removal
 2. convert text to lowercase
 3. Tokenization - textbreakdown
 4. Extract single item_name clearly
 
-Transformations
+**Data Transformations - AWS Glue**
+
 1. Number of questions for each product
 2. Calculate average gap in hours for different product categories or titles.
 3. Compute descriptive statistics for the gap in hours, such as mean, median, and standard deviation, to understand the central tendency and variability.
-   
+**AWS Glue ETL Pipeline:**
+<Image>
 
-Visualizations
+
+
+**Visualizations**
 1. Number of questions vs asin
 2. avg hours diff vs product_asin
 3. label distribution vs asin
-
-**AWS Glue ETL Job:**
 
 **AWS Pipeline:**
 
