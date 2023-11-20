@@ -139,11 +139,11 @@ Feedback Loop Effectiveness: The model's ability to learn from new data and impr
 
 **Data Exploration:**
 
-Athena - 
-
+Athena - we explored the dataset indepth using SQL queries.
 
 
 We make use of AWS Glue for ETL Transformations
+
 **Pre-processing** 
 
 1. Stop words removal
