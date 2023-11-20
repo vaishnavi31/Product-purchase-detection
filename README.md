@@ -185,9 +185,23 @@ We make use of AWS Glue for ETL Transformations
 
 
 **Visualizations**
-1. Number of questions vs asin
-2. avg hours diff vs product_asin
-3. label distribution vs asin
+1. Question Count vs. ASIN: - This chart will demonstrate how user-generated questions are distributed among various ASINs (Amazon Standard Identification Numbers).
+ Every product on Amazon is individually identified by its ASIN, which makes it possible to analyze consumer activity and interest in great detail.
+   - By using the bar or line charts provided by Amazon QuickSight, you can quickly spot patterns and determine which products are generating the most interest from users or inquiries.
+
+2. Product ASIN vs. Average Hours Diff:
+ The goal of this visualization is to show, for each product ASIN, the average time interval between successive user questions.
+ It offers information about how frequently and consistently users engage with content over time.
+-Scatter plots and line charts from Amazon QuickSight are useful tools for visualizing this temporal component and identifying products that users are consistently or occasionally interested in.
+
+3. ASIN vs. Label Distribution:
+ This visualization seeks to identify patterns in the way users classify products based on their inquiries by focusing on the distribution of user-assigned labels or categories to products.
+By providing insightful information about consumer preferences and perceptions, this visualization can aid in the understanding of the perceived benefits or features of different goods.
+  - Pie charts and stacked bar charts from QuickSight can be used to show the percentage of various labels connected to each ASIN.
+Advantages of Amazon QuickSight:
+- Amazon QuickSight's smooth interaction with Amazon S3 guarantees effective data analysis and retrieval.
+- The tool's interactive dashboards enable users to filter and go deeper into particular ASINs or time periods, enabling real-time dataset research.
+- QuickSight's anomaly detection, which is driven by machine learning, can spot odd trends in user activity, helping in removal of outliers amongst many other benefits as a part of amazon’s services offered.
 
 **AWS Pipeline:**
 
