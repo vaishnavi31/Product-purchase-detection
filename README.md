@@ -209,7 +209,7 @@ Advantages of Amazon QuickSight:
 
 ## Phase 3
 
-**Develop and Train Models**
+**Data Modeling**
 
 For data pre processing, we have used AWs SageMaker to remove the Stop Words, punctuations, and performed lemmatization on our dataset. Additionally, using 
 Term Frequency-Inverse Document Frequency we have converted text to numerical values. 
@@ -218,21 +218,18 @@ Term Frequency-Inverse Document Frequency we have converted text to numerical va
 
 Tokenize the Text: Split the text into individual words or tokens.
 
-Calculate Term Frequency (TF): Count how many times each word appears in a document and divide by the total number of words in that document.
+***Calculate Term Frequency (TF):*** Count how many times each word appears in a document and divide by the total number of words in that document.
 
-Calculate Inverse Document Frequency (IDF): Take the log of the number of documents divided by the number of documents that contain each word.
+***Calculate Inverse Document Frequency (IDF):*** Take the log of the number of documents divided by the number of documents that contain each word.
 
-Compute TF-IDF: Multiply the TF by the IDF for each word. This gives a weight to each word signifying its importance in the document and the entire corpus.
+***Compute TF-IDF:*** Multiply the TF by the IDF for each word. This gives a weight to each word signifying its importance in the document and the entire corpus.
 
-Vectorize: Convert this into a numerical vector for each document, which can then be used for machine learning models.
+***Vectorize:*** Convert this into a numerical vector for each document, which can then be used for machine learning models.
 
-***Output after Stop words and Punctuation Removal***
-![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/SW2.png)
+***Output after Stop words, Punctuation Removal and Lemmatization***
+![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/SW1.png)
 
-***Output after application of Lemmatization***
-![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/L2.png)
-
-**Evaluation and Validation**
+**Choosing Machine Learning Model**
 
 We are applying ***Random Forest classification Model*** to our dataset. 
 
