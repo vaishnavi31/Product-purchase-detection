@@ -239,5 +239,28 @@ We are applying ***Random Forest classification Model*** to our dataset.
 4. Created an instance of RandomForestClassifier.
 5. Random Forest Classification Model is fitted into the training data.
 6. To evaluate the performance of Random Forest Model we have used the test set.
-   
+
+We have developed and trained our model on the above classification method. Below are the results of the model's evaluation and validation. 
+
+*Evaluation and Validation*
+Machine learning models are essential in many fields, and in order to guarantee their efficacy, their performance must be carefully assessed. The assessment and validation of a machine learning model utilizing a range of metrics, such as ROC curves, Mean Squared Error (MSE), precision, recall, F1-score, and accuracy can be done. 
+
+Metrics for Evaluation
+1. Accuracy The total validity of the model's predictions is gauged by accuracy, a basic metric.
+2. Accuracy, Memory, and F1-Score
+Important metrics for binary classification include precision, recall, and F1-score. These metrics reveal how well the model balances precision and recall, makes accurate positive predictions, and identifies all positive cases.
+3. The MSE, or mean squared error
+The average squared difference between the anticipated and actual values can be assessed using the Mean Squared Error (MSE) metric if your problem is a regression problem.
+4. ROC Curve and AUC The model's capacity to distinguish between classes can be evaluated using the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC).
+
+We have provided a summary of the computed metrics and their values, in our code. Attaching screenshots of the results obtained.
+
+Accuracy: {accuracy}
+Precision: {precision}
+Recall: {recall}
+F1-Score: {f1}
+AUC: {roc_auc}
+Mean Squared Error: {mse}
+
+![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/cb1a9da8-3626-41f8-b516-3907e516545b)
 
