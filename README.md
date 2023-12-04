@@ -232,3 +232,15 @@ Vectorize: Convert this into a numerical vector for each document, which can the
 ***Output after application of Lemmatization***
 ![Alt text](https://github.com/vishalsingh-11/Product-purchase-detection/blob/main/Images/L2.png)
 
+**Evaluation and Validation**
+
+We are applying ***Random Forest classification Model*** to our dataset. 
+
+1. Ensured each data point has a label (Eg: question_type, item_name, etc)
+2. Splitted the data into training and testing sets.
+3. Imported RandomForestClassifier from sklearn.ensemble.
+4. Created an instance of RandomForestClassifier.
+5. Random Forest Classification Model is fitted into the training data.
+6. To evaluate the performance of Random Forest Model we have used the test set.
+   
+
