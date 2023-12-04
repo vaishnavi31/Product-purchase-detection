@@ -264,3 +264,7 @@ Mean Squared Error: {mse}
 
 ![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/cb1a9da8-3626-41f8-b516-3907e516545b)
 
+The ROC Curve output is as below
+![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/c3c6586b-c0bc-4c33-b179-aaf8c830cfe8)
+
+
