@@ -242,7 +242,7 @@ We are applying ***Random Forest classification Model*** to our dataset.
 
 We have developed and trained our model on the above classification method. Below are the results of the model's evaluation and validation. 
 
-*Evaluation and Validation*
+**Evaluation and Validation**
 Machine learning models are essential in many fields, and in order to guarantee their efficacy, their performance must be carefully assessed. The assessment and validation of a machine learning model utilizing a range of metrics, such as ROC curves, Mean Squared Error (MSE), precision, recall, F1-score, and accuracy can be done. 
 
 Metrics for Evaluation
@@ -255,8 +255,7 @@ The average squared difference between the anticipated and actual values can be 
 
 We have provided a summary of the computed metrics and their values, in our code. Attaching screenshots of the results obtained.
 
-the machine learning model has demonstrated outstanding performance across various evaluation metrics, indicating its robustness and reliability in predicting the target variable. Here are the key metrics obtained from the evaluation:
-
+Our model focuses on the predictive model designed to classify instances based on features such as question, item_name, and hours_diff. The model is trained on a dataset containing pre and post-purchase questions from AWS Data Registry.
 Accuracy: 0.99
 Precision: 1.00
 Recall: 0.99
@@ -269,7 +268,7 @@ ROC AUC Score: 1.00
 The ROC Curve output is as below
 ![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/c3c6586b-c0bc-4c33-b179-aaf8c830cfe8)
 
-*Some observations:*
+**Some observations:**
 Accuracy: The model predicts the target variable accurately, with an astounding accuracy of 99%.
 Precision and Recall: Both classes (0 and 1) have consistently high precision and recall scores, indicating that the model is good at correctly identifying positive instances while reducing false positives.
 F1 Score: The model's ability to provide a harmonized measure of its overall performance is reinforced by its 0.99 F1 score, which strikes a balance between precision and recall.
@@ -277,7 +276,7 @@ The model's predictions are very close to the actual values, as indicated by the
 ROC AUC: An ideal score A ROC AUC score of 1.00 indicates the best possible ability to differentiate between the two classes, showcasing the model's excellent discriminatory power.
 
 
-*Hyperparameter Tuning*
+**Hyperparameter Tuning**
 A critical step in maximizing the effectiveness of machine learning models is hyperparameter tuning. It entails methodically determining which set of hyperparameters will maximize a model's performance. We'll talk about the hyperparameter tuning procedure in this section, with an emphasis on using AWS SageMaker's hyperparameter tuning feature.
 
 Hyperparameter Adjustment Method
