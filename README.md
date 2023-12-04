@@ -255,16 +255,27 @@ The average squared difference between the anticipated and actual values can be 
 
 We have provided a summary of the computed metrics and their values, in our code. Attaching screenshots of the results obtained.
 
-Accuracy: {accuracy}
-Precision: {precision}
-Recall: {recall}
-F1-Score: {f1}
-AUC: {roc_auc}
-Mean Squared Error: {mse}
+the machine learning model has demonstrated outstanding performance across various evaluation metrics, indicating its robustness and reliability in predicting the target variable. Here are the key metrics obtained from the evaluation:
+
+Accuracy: 0.99
+Precision: 1.00
+Recall: 0.99
+F1 Score: 0.99
+Mean Squared Error (MSE): 0.01
+ROC AUC Score: 1.00
 
 ![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/cb1a9da8-3626-41f8-b516-3907e516545b)
 
 The ROC Curve output is as below
 ![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/c3c6586b-c0bc-4c33-b179-aaf8c830cfe8)
+
+*Some observations:*
+Accuracy: The model predicts the target variable accurately, with an astounding accuracy of 99%.
+Precision and Recall: Both classes (0 and 1) have consistently high precision and recall scores, indicating that the model is good at correctly identifying positive instances while reducing false positives.
+F1 Score: The model's ability to provide a harmonized measure of its overall performance is reinforced by its 0.99 F1 score, which strikes a balance between precision and recall.
+The model's predictions are very close to the actual values, as indicated by the low Mean Squared Error (MSE) of 0.01; this is especially significant in regression problems.
+ROC AUC: An ideal score A ROC AUC score of 1.00 indicates the best possible ability to differentiate between the two classes, showcasing the model's excellent discriminatory power.
+
+
 
 
