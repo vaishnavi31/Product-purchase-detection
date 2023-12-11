@@ -16,6 +16,8 @@ Ruchika Bhutada - 801327098
 
 **Project Scope**
 The machine learning component in this project aims to address a few specific challenges and opportunities within the domain of pre and post-purchase product questions in the e-commerce space. The focus will be on leveraging the dataset from Amazon to gain insights and develop models for the following tasks.
+![image](https://github.com/vishalsingh-11/Product-purchase-detection/assets/150567765/3880f01d-5619-4327-b494-c4c0395658b7)
+
 
 **Objectives**
 
