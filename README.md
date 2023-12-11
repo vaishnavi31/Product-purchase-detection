@@ -1,5 +1,5 @@
 # Product-Purchase-Detection
-This project aims to perform product analysis and detect users' purchase state from their product-related questions from Amazon.
+The goal of this project is to categorize product-related queries from Amazon into pre-purchase and post-purchase categories through analysis.
 
 **TEAM MEMBERS**
 
