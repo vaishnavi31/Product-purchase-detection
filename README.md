@@ -294,4 +294,7 @@ In summary
 The process of hyperparameter tuning is iterative, and the model's predictive power can be greatly increased by utilizing the results of AWS SageMaker's hyperparameter tuning feature. Evaluate the model's performance on a regular basis and adjust the hyperparameters if the requirements or data distribution change.
 
 
+![image]https://github.com/vaishnavi31/Product-purchase-detection/blob/main/Images/Cost%20Analysis.jpeg
+
+
 
