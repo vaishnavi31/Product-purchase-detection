@@ -297,8 +297,25 @@ The process of hyperparameter tuning is iterative, and the model's predictive po
 ## Phase 4
 
 **Cost Analysis**
+
 ![image](https://github.com/vaishnavi31/Product-purchase-detection/assets/36551308/29cf6a9b-4305-465e-97ae-89c3b0a976fe)
 
+**Employing AWS Cost Explorer for Cost Optimization**
+
+Integrating AWS Cost Explorer into our project workflow has been pivotal for managing expenses effectively. Its insights have empowered informed decisions, allowing us to:
+
+ **Analyze Spending Patterns**
+Visualizing expenses across AWS services helped identify trends and high-expenditure areas, enhancing resource utilization understanding.
+Fine-Tune Resource Allocation: Filtering and grouping costs optimized resource usage strategies for better decision-making.
+
+**Implement Cost Optimization Strategies**
+Leveraging Cost Explorer's recommendations, we made impactful changes like rightsizing instances, leading to cost reductions without performance compromise.
+
+**Track Progress and Budgets**
+Cost Explorer's budgeting tools enabled us to set thresholds, receiving alerts to maintain efficiency within budgetary limits.
+
+**Ensure Continuous Improvement**
+Regular Cost Explorer reviews form an integral part of our cost management, allowing adaptable spending habits and efficient resource alignment.
 
 
 
