@@ -297,6 +297,7 @@ The process of hyperparameter tuning is iterative, and the model's predictive po
 ## Phase 4
 
 **Cost Analysis**
+![image](https://github.com/vaishnavi31/Product-purchase-detection/assets/36551308/29cf6a9b-4305-465e-97ae-89c3b0a976fe)
 
 
 
